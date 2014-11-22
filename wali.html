@@ -3,11 +3,14 @@
     <header>
       <h1>Wali</h1>
     </header>
-    <ul>
-      {{#each tasks}}
-        {{> task}}
-      {{/each}}
-    </ul>
+    {{> loginButtons}}
+    {{#if currentUser}}
+      <ul>
+        {{#each tasks}}
+          {{> task}}
+        {{/each}}
+      </ul>
+    {{/if}}
   </div>
 </body>
 
