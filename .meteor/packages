@@ -8,4 +8,7 @@ autopublish
 insecure
 accounts-ui
 accounts-password
+raix:cordova
+mizzao:bootstrap-3
+underscore
 
