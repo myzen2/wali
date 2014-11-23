@@ -198,6 +198,7 @@ body {
   pointer-events: auto;
 }
 
+
 .pageaccueil {
   font-family:"SinkinSans-500Medium-webfont.woff";
   background-color: #E22D2D;
@@ -205,5 +206,10 @@ body {
 
 
 
+}
+
+.Home {
+  background-color: #ffb33e;
+  
 }
 
