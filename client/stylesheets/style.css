@@ -1,3 +1,38 @@
+/**********************police**********************/
+@font-face {
+  font-family: "sinkinsans_900xblack_macroman";
+  src:url("sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.woff");
+  src:url("sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.ttf");
+  src:url("sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.svg");
+  src:url("sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.eot");
+  src:url("sinkinsans_900xblack_macroman/SinkinSans-900XBlack-webfont.eot?iefix");
+}
+
+@font-face {
+  font-family: "SinkinSans-500Medium-webfont.woff";
+  src:url("sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.woff");
+  src:url("sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.ttf");
+  src:url("sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.svg");
+  src:url("sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.eot");
+  src:url("sinkinsans_500medium_macroman/SinkinSans-500Medium-webfont.eot?iefix");
+}
+
+@font-face {
+  font-family: "SinkinSans-100Thin-webfont.woff";
+  src:url("sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.woff");
+  src:url("sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.ttf");
+  src:url("sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.svg");
+  src:url("sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.eot");
+  src:url("sinkinsans_100thin_macroman/SinkinSans-100Thin-webfont.eot?iefix");
+}
+/**************************************************/
+
+
+
+
+
+
+
 .grid-block, .main, .post, .comments li, .comment-form {
   background: #fff;
   -webkit-border-radius: 3px;
@@ -163,7 +198,18 @@ body {
   pointer-events: auto;
 }
 
+
+.pageaccueil {
+ /* font-family: "SinkinSans-500Medium-webfont.woff";*/
+  background-color: #E22D2D;
+  /*background-image: ;*/
+
+
+
+}
+
 .Home {
   background-color: #ffb33e;
   
 }
+
